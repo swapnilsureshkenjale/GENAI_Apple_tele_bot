@@ -110,7 +110,7 @@ async def ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
         print("ERROR:", e)
         await update.message.reply_text(f"Error: {str(e)}")
 
-# --------> RELOAD DOCUMENTS COMMAND <--------
+# --------> RELOAD DOCUMENTS COMMAND <---------
 async def reload_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not RAG_ENABLED:
         await update.message.reply_text("RAG module not available.")
