@@ -35,4 +35,4 @@ TELEGRAM_TOKEN=your_telegram_bot_token
 
 GOOGLE_API_KEY=your_google_genai_api_key
 
-BOT_USERNAME=@Appy_apple_bot
+BOT_USERNAME=@Alppy_apple_bot
