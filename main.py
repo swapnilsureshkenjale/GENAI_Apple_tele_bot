@@ -59,7 +59,7 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def custom_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("This is a custom command!")
 
-# --------> FALLBACK CHAT RESPONSE LOGIC <--------
+# --------> CHAT RESPONSE LOGIC <--------
 def handle_response(text: str) -> str:
     processed: str = text.lower()
 
