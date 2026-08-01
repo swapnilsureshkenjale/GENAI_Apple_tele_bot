@@ -9,10 +9,10 @@ load_dotenv()
 
 # Define the tokens so other files can import them cleanly
 TOKEN: Final = os.getenv("TELEGRAM_TOKEN")
-GOOGLE_API_KEY: Final = os.getenv("GOOGLE_API_KEY") # Highlighted: Your Google API key for Gemini/GenAI
+GOOGLE_API_KEY: Final = os.getenv("GOOGLE_API_KEY") 
 BOT_USERNAME: Final = "@Appy_apple_bot"
 
-# Safe imports for RAG and Vision modules
+# Imports for RAG and Vision modules
 try:
     from rag.pipeline import rag_answer, reload_docs
     RAG_ENABLED = True
